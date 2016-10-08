@@ -3,8 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DA43A2C3-E8D8-488B-AC08-44E1BC22DED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C764B29D-97DC-438C-8AEC-6A4441978FE7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNetCore.Mvc.Microbenchmarks", "test\Microsoft.AspNetCore.Mvc.Microbenchmarks\Microsoft.AspNetCore.Mvc.Microbenchmarks.xproj", "{E5114564-1A91-45B9-8B08-ADF8E80A29FF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dotnet-benchmark-run", "src\dotnet-benchmark-run\dotnet-benchmark-run.xproj", "{95C14D97-C841-4D2C-9C0F-D5A94249C841}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.DotNet.Performance.Design", "src\Microsoft.DotNet.Performance.Design\Microsoft.DotNet.Performance.Design.xproj", "{D2D376AF-55BF-4642-A3B0-B4B6C3D10B57}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dotnet-benchmark-run-bootstrapper", "src\dotnet-benchmark-run-bootstrapper\dotnet-benchmark-run-bootstrapper.xproj", "{1B5CCDC6-1CF6-48DD-A23B-C545C9152257}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5114564-1A91-45B9-8B08-ADF8E80A29FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5114564-1A91-45B9-8B08-ADF8E80A29FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5114564-1A91-45B9-8B08-ADF8E80A29FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5114564-1A91-45B9-8B08-ADF8E80A29FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C14D97-C841-4D2C-9C0F-D5A94249C841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C14D97-C841-4D2C-9C0F-D5A94249C841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C14D97-C841-4D2C-9C0F-D5A94249C841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C14D97-C841-4D2C-9C0F-D5A94249C841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D376AF-55BF-4642-A3B0-B4B6C3D10B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D376AF-55BF-4642-A3B0-B4B6C3D10B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D376AF-55BF-4642-A3B0-B4B6C3D10B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D376AF-55BF-4642-A3B0-B4B6C3D10B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5CCDC6-1CF6-48DD-A23B-C545C9152257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5CCDC6-1CF6-48DD-A23B-C545C9152257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5CCDC6-1CF6-48DD-A23B-C545C9152257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5CCDC6-1CF6-48DD-A23B-C545C9152257}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5114564-1A91-45B9-8B08-ADF8E80A29FF} = {DA43A2C3-E8D8-488B-AC08-44E1BC22DED6}
+		{95C14D97-C841-4D2C-9C0F-D5A94249C841} = {C764B29D-97DC-438C-8AEC-6A4441978FE7}
+		{D2D376AF-55BF-4642-A3B0-B4B6C3D10B57} = {C764B29D-97DC-438C-8AEC-6A4441978FE7}
+		{1B5CCDC6-1CF6-48DD-A23B-C545C9152257} = {C764B29D-97DC-438C-8AEC-6A4441978FE7}
 	EndGlobalSection
 EndGlobal

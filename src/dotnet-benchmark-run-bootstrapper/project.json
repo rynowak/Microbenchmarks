@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.Diagnostics.Tracing.TraceEvent": "1.0.41",
+    "Microsoft.DotNet.xunit.performance.metrics": "1.0.0-*",
+    "xunit.extensibility.core": "2.1.0",
+    "xunit.runner.utility": "2.1.0"
+  },
+
+  "frameworks": {
+    "net461": {
+      "frameworkAssemblies": {
+        "System.Xml": "4.0.0.0",
+        "System.Xml.Linq": "4.0.0.0"
+      }
+    }
+  }
+}
